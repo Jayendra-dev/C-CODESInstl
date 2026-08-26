@@ -1,0 +1,11 @@
+//print Hello world using function
+#include<iostream>
+using namespace std;
+void hello(){
+    cout<<"hello world";
+}
+int main(){
+    hello();
+    return 0;
+    
+}
