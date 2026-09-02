@@ -1,3 +1,4 @@
+//Write a program to divide 2 numbers using functions
 #include <iostream>
 using namespace std;
 double divide(double a, double b)
