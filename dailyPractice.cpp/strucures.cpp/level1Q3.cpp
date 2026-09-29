@@ -1,7 +1,10 @@
+// 3. Store details of 5 students using an array of structures.
+
 #include<iostream>
 using namespace std;
 
 // 1. Structure is ONLY a blueprint. It should NOT have logic like for-loop or cin inside it.
+
 struct Student{ // Changed name to singular, standard practice
     string name;
     int RollNo;
@@ -17,8 +20,8 @@ int main(){
     // 3. Input Loop - Loop should be in main(), not inside struct
     // Mistake in your code: for(int i=0;i<=5;i++) -> this runs 6 times (0,1,2,3,4,5)
     // Correct is i < 5
-    for(int i = 0; i < 4; i++){
-        cout << "\nEnter details for Student " << i<< ":\n";
+    for(int i = 0; i < 5; i++){
+        cout << "\nEnter details for Student " << i+1<< ":\n";
 
         cout << "Enter name: ";
         cin >> s[i].name; // Mistake was cin>> - correct is cin >> and we need to store in s[i].name
