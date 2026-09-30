@@ -58,15 +58,15 @@ int main() {
     // Step 6: Display the result
     cout << "\n--- Student with Highest Marks ---\n";
     cout << "Name: " << s[highestMarks].name << endl;
-    cout << "Subject: " << s[highestMarks].sghestMarks].rollNo << endl;
+    cout << "Subject: " << s[highestMarks].subject << endl;
+    cout << "Roll No: " << s[highestMarks].rollNo << endl;
     cout << "Marks: " << s[highestMarks].marks << endl;
 
     return 0;
 }
 /*Sample Output:*
 Enter number of students: 3
-ubject << endl;
-    cout << "Roll No: " << s[hi
+
 Enter details for Student 1:
 Enter Name: Rahul
 Enter Subject: DSA
