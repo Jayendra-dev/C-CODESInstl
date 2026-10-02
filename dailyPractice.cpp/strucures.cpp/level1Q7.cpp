@@ -1,5 +1,4 @@
 //7. Count students who scored above 75.
-// Count students who scored above 75
 #include <iostream>
 #include <string>
 using namespace std;
