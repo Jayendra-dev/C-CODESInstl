@@ -27,3 +27,9 @@ int main() {
 
     return 0;
 }
+/*output:
+Enter name and marks: jayendra
+87
+
+Before modify: jayendra - 87
+After modify: Topper_jayendra - 97*/
