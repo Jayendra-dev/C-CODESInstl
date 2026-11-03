@@ -1,0 +1,40 @@
+Railway Reservation Record System Using Structures in C++
+1. Aim
+To develop a Railway Reservation Record System using structures in C++ that allows users to book train tickets, display passenger records, search for passengers, and cancel reservations.
+2. Theory and Concept
+A railway reservation system maintains passenger information and ticket details.
+
+In C++, we use the struct keyword to store multiple related data members under a single user-defined data type.
+
+Structure members used in this project:
+Member   	Data type	Purpose
+PNR Number	int	      Unique passenger ID
+Passenger Name	char[]	      Passenger name
+Age	int	Passenger     age
+Train Number	int	      Train identification
+Train Name	char[]	      Train name
+Source	char[]	Starting      station
+Destination	char[]	      Ending station
+Seat Number	int	      Allocated seat
+
+3. Algorithm
+1. Start the program.
+2. Define a structure named Passenger.
+3. Declare an array of structures to store passenger records.
+4. Display the main menu.
+5. Ask the user to select an operation.
+6. If the user selects Book Ticket:
+   - Enter passenger details.
+   - Generate a PNR number.
+   - Allocate a seat number.
+   - Store the record.
+7. If the user selects Display Records:
+   - Display all passenger records.
+8. If the user selects Search Passenger:
+   - Enter the PNR number.
+   - Search and display the matching record.
+9. If the user selects Cancel Ticket:
+   - Enter the PNR number.
+   - Find and delete the corresponding record.
+10. Repeat until the user selects Exit.
+11. Stop.
